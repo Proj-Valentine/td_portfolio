@@ -8,7 +8,7 @@ import {
    menu, 
    close, 
   //  logoblack,
-   profile,
+  //  profile,
   //  profile2  
   } from "../assets";
 
@@ -49,7 +49,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={profile} alt='logo' className='w-9 h-9 object-contain rounded-full' />
+          <img src="./myprof.jpg" alt='logo' className='w-9 h-9 object-contain rounded-full' />
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Mr.Valentine &nbsp;
             <span className='xl:block hidden'> | Portfolio</span>
