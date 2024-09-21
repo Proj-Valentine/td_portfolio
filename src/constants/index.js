@@ -49,7 +49,8 @@ import {
   erd,
   // reub,
   // profile,
-  nanaB
+  nanaB,
+  profile_logo
 
 } from "../assets";
 
@@ -364,8 +365,8 @@ const testimonials = [
     designation: "Prof Psychology",
     company: "MUN",
     // image: "https://randomuser.me/api/portraits/women/6.jpg",
-    image: nanaB,
-    profile: "https://www.linkedin.com/in/nana-yaw-donkor/",
+    image: profile_logo,
+    profile: "https://www.linkedin.com/in/felix-a-38b55423b/",
 
 
   }

@@ -44,7 +44,7 @@ const ServiceCard = ({ index, title, icon }) => (
 const Certifications = () => {
   return (
     
-    <div className='flex flex-col justify-center items-center'>
+    <div className='flex flex-col items-center justify-evenly'>
         
         <h1 className= {`${styles.sectionHeadText} text-center`}>Certifications</h1>
            <div className='mt-20 flex flex-wrap gap-10'>

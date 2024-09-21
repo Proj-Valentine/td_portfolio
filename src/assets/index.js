@@ -64,6 +64,7 @@ import pyproject from "./pyproject.png";
 import search from "./search.png";
 import erd from "./erd.jpeg";
 import nanaB from "./nanaB.png";
+import profile_logo from "./profile_logo.svg";
 
 export {
   logo,
@@ -126,5 +127,6 @@ export {
   search,
   erd,
   nanaB,
+  profile_logo
 
 };
