@@ -42,7 +42,7 @@ const ProjectCard = ({
             </div>
             {source_code_link && ( <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className='bg-white w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
+              className=' w-10 h-10 rounded-full flex justify-center items-center cursor-pointer bg-white'
             >
               <img
                 src={url}
@@ -117,7 +117,7 @@ const Works = () => {
 
       <div className='mt-20 flex flex-wrap gap-7'>
         {projects.map((project) => (
-           <div key= {project.name} onClick={() => window.open(project.source_code_link, "_blank")}
+           <div key= {project.name} onClick={() => window.open(project.source_code_link? project.source_code_link : project.github_link, "_blank")}
               className='cursor-pointer'
             >
               <ProjectCard key={`project-${name}`}  {...project} />
