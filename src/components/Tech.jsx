@@ -12,7 +12,7 @@ const Tech = () => {
       <h2 className={`${styles.sectionHeadText} text-center mb-10`}>
           Tech Stack
       </h2>
-      <div className='flex flex-row flex-wrap justify-center gap-5'>
+      <div className='flex flex-row flex-wrap justify-center gap-5 mb-4'>
         {technologies.map((technology) => (
           <div 
           data-tooltip-id="mytooltip"
@@ -26,7 +26,7 @@ const Tech = () => {
       </div>
 
 
-      <div className='flex flex-row flex-wrap justify-center gap-5'>
+      <div className='flex flex-row flex-wrap justify-center gap-5 mb-4'>
         {programming.map((technology) => (
           <div 
           data-tooltip-id="my-tooltip"

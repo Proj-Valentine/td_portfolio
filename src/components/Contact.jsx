@@ -6,6 +6,7 @@ import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 // import { slideIn } from "../utils/motion";
+// import { earthg} from "../assets";
 
 
 
@@ -135,6 +136,11 @@ const Contact = () => {
         className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px]'
       >
         <EarthCanvas />
+        {/* <img
+        src={earthg}
+        className="object-cover w-full h-full"
+        alt="earth"
+      /> */}
       </div>
     </div>
   );

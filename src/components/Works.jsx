@@ -79,7 +79,10 @@ const Works = () => {
     <>
       {/* <motion.div variants={textVariant()}> */}
         {/* <p className={`${styles.sectionSubText} `}>My work</p> */}
-        <h2 className={`${styles.sectionHeadText}`}>My Projects</h2>
+        <div className='grid justify-items-center md:justify-items-start'
+>
+          <h2 className={`${styles.sectionHeadText}`}>My Projects</h2>
+        </div>
       {/* </motion.div> */}
 
       <div className='w-full flex'>
@@ -87,16 +90,28 @@ const Works = () => {
           // variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-white text-[15px] max-w-3xl leading-[30px]'
         >
-        My portfolio showcases full-stack applications and big data processing 
-        projects using SQL/NoSQL databases such as MongoDB, PostgreSQL, and MySQL, 
-        along with languages like JavaScript, TypeScript, Java, Python and 
-        runtime environments like Node.js. I have worked with frameworks including
-         React, Next.js, Express, and Spring Boot, building search engines, 
-         REST API&apos;s, data pipelines, and web applications. 
-         I also leverage cloud platforms like AWS, Azure, and Google Cloud, 
-         as well as CI/CD tools such as Docker. Each project includes a 
-         description and source code link, highlighting my technical versatility 
-         and problem-solving skills.
+            My portfolio features <span className="font-bold">full-stack apps</span> and 
+            <span className="font-bold"> big data projects</span> using SQL/NoSQL databases like 
+            <span className="font-bold"> MongoDB</span>, <span className="font-bold">PostgreSQL</span>, 
+            and <span className="font-bold">MySQL</span>, with languages such as 
+            <span className="font-bold"> JavaScript</span>, <span className="font-bold">TypeScript</span>, 
+            <span className="font-bold"> Java</span>, and <span className="font-bold">Python</span>. 
+
+            I’ve built <span className="font-bold">search engines</span>, 
+            <span className="font-bold"> REST APIs</span>, 
+            <span className="font-bold"> data pipelines</span>, and 
+            <span className="font-bold"> web apps</span> using frameworks like 
+            <span className="font-bold"> React</span>, <span className="font-bold">Next.js</span>, 
+            <span className="font-bold"> Express</span>, and <span className="font-bold">Spring Boot</span>. 
+
+            I also utilize cloud platforms like <span className="font-bold">AWS</span>, 
+            <span className="font-bold">Azure</span>, and <span className="font-bold">Google Cloud</span>, 
+            along with <span className="font-bold">Docker</span> for CI/CD. 
+
+            Each project includes a description and source code, showcasing my 
+            <span className="font-bold"> technical range</span> and 
+            <span className="font-bold"> problem-solving skills</span>.
+
         </p>
       </div>
 

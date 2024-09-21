@@ -65,6 +65,7 @@ import search from "./search.png";
 import erd from "./erd.jpeg";
 import nanaB from "./nanaB.png";
 import profile_logo from "./profile_logo.svg";
+import earthg from "./earthg.svg";
 
 export {
   logo,
@@ -127,6 +128,7 @@ export {
   search,
   erd,
   nanaB,
-  profile_logo
+  profile_logo,
+  earthg
 
 };

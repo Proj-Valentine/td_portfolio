@@ -50,7 +50,8 @@ import {
   // reub,
   // profile,
   nanaB,
-  profile_logo
+  profile_logo,
+  
 
 } from "../assets";
 
@@ -145,7 +146,7 @@ const technologies = [
   // },
 
   {
-    name: "MongoDB",
+    name: "Mongodb",
     icon: mongodb,
   },
   // {
@@ -153,23 +154,23 @@ const technologies = [
   //   icon: threejs,
   // },
   {
-    name: "git",
+    name: "Git",
     icon: git,
   },
   {
-    name: "figma",
+    name: "Figma",
     icon: figma,
   },
   {
-    name: "docker",
+    name: "Docker",
     icon: docker,
   },
     {
-    name: "HTML 5",
+    name: "HTML",
     icon: html,
   },
   {
-    name: "CSS 3",
+    name: "CSS ",
     icon: css,
   },
 
@@ -182,15 +183,15 @@ const programming = [
     icon: typescript,
   },
   {
-    name: "Node JS",
+    name: "Node.JS",
     icon: nodejs,
   },
   {
-    name: "java",
+    name: "Java",
     icon: java,
   },
   {
-    name: "python ",
+    name: "Python ",
     icon: python,
   },
   {
@@ -209,11 +210,11 @@ const cloudtech = [
     icon: aws,
   },
   {
-    name: "azure",
+    name: "Azure",
     icon: azure,
   },
   {
-    name: "gcp",
+    name: "GCP",
     icon: gcp,
   },
 ]
@@ -235,8 +236,8 @@ const experiences = [
     ],
     },
    {
-    title: "Chief Technology Officer/Developer",
-    company_name: "Ciana Insights (Startup)",
+    title: "Software Developer",
+    company_name: "Ciana Insights (Genesis Evolution Start - Up) ",
     icon: nodejs,
     iconBg: "#E6DEDD",
     date: "May 2024 - Present",
@@ -350,7 +351,7 @@ const testimonials = [
   // },
   {
     testimonial:
-      "A highly skilled software engineer with a keen eye for detail and a passion for creating innovative data  and api integrations.",
+      "A skilled software engineer with a keen eye for detail and a passion for creating innovative data  and api integrations.",
     name: "Nana Yaw Bediako",
     designation: "Senior Data Analyst",
     company: "Air Canada",
@@ -360,10 +361,10 @@ const testimonials = [
   },
   {
     testimonial:
-      "A highly skilled software engineer with a keen eye for detail and a passion for creating innovative data  and api integrations.",
+      "A skilled developer with a strong background in cloud computing and data architecture, adept at optimizing data workflows for business intelligence and analytics.",
     name: "Felix Ayesu",
-    designation: "Prof Psychology",
-    company: "MUN",
+    designation: "Prof Psychology & Data Engineer",
+    company: "HomeStars",
     // image: "https://randomuser.me/api/portraits/women/6.jpg",
     image: profile_logo,
     profile: "https://www.linkedin.com/in/felix-a-38b55423b/",
