@@ -38,7 +38,7 @@ import {
   gcp,
   java,
   sql,
-  spark,
+  // spark,
   cloud,
   data,
   fullstack,
@@ -273,33 +273,46 @@ const experiences = [
 
     ],
   },
+  // {
+  //   title: "Data Engineer",
+  //   company_name: "Staples",
+  //   icon: spark,
+  //   iconBg: "#E6DEDD",
+  //   date: "Feb 2020 - Jan 2022  ",
+  //   points: [ 
+  //   "Led cross-functional teams to build and optimize data flows using Azure Synapse and Databricks spark clusters, improving productivity by 20%",
+  //   "Designed automated ETL processes with Azure Data Factory, achieving seamless data integration and a 90% accuracy rate in data deployments",
+  //   "Conducted thorough data quality checks on source systems, to track and identify bugs in code ensuring about 90% deployment of valid data to the warehouse, maintaining integrity and reliability",
+  //   "Enhanced pipeline efficiency by utilizing Spark Structured Streaming API for micro-batch data ingestions within predefined time windows, optimizing data load and diminishing storage contention by 40%",
+  //   "Refined Spark codebase by implementing caching and minimizing shuffle operations through Broadcast joins and deduplication, accelerating processing speed by 60%"
+  //   ],
+  // },
+  // {
+  //   title: "SQL Developer",
+  //   company_name: "Newark Community Health Center Inc",
+  //   icon: sql,
+  //   iconBg: "#383E56",
+  //   date: "Jan 2016 - Dec 2018",
+  //   points: [
+  //   "Developed and optimized Tableau reports, driving a 30% increase in data-driven decision-making.",
+  //   "Streamlined the reporting process, resulting in a 25% faster turnaround for data insights.",
+  //   "Defined Key Performance Indicators (KPIs) and metrics for performance tracking, resulting in improved business evaluation and alignment with strategic goals",
+  //   "Resolved 60% of reporting and design issues, ensuring seamless data visualization and maintaining high data accuracy" 
+  //   ],
+  // },
   {
-    title: "Data Engineer",
-    company_name: "Staples",
-    icon: spark,
-    iconBg: "#E6DEDD",
-    date: "Feb 2020 - Jan 2022  ",
-    points: [ 
-    "Led cross-functional teams to build and optimize data flows using Azure Synapse and Databricks spark clusters, improving productivity by 20%",
-    "Designed automated ETL processes with Azure Data Factory, achieving seamless data integration and a 90% accuracy rate in data deployments",
-    "Conducted thorough data quality checks on source systems, to track and identify bugs in code ensuring about 90% deployment of valid data to the warehouse, maintaining integrity and reliability",
-    "Enhanced pipeline efficiency by utilizing Spark Structured Streaming API for micro-batch data ingestions within predefined time windows, optimizing data load and diminishing storage contention by 40%",
-    "Refined Spark codebase by implementing caching and minimizing shuffle operations through Broadcast joins and deduplication, accelerating processing speed by 60%"
-    ],
-  },
-  {
-    title: "SQL Developer",
-    company_name: "Newark Community Health Center Inc",
+    title: "Data Analyst",
+    company_name: "Student Life, MUN ",
     icon: sql,
     iconBg: "#383E56",
-    date: "Jan 2016 - Dec 2018",
+    date: "Jan 2020 - Feb 2021",
     points: [
-    "Developed and optimized Tableau reports, driving a 30% increase in data-driven decision-making.",
-    "Streamlined the reporting process, resulting in a 25% faster turnaround for data insights.",
-    "Defined Key Performance Indicators (KPIs) and metrics for performance tracking, resulting in improved business evaluation and alignment with strategic goals",
-    "Resolved 60% of reporting and design issues, ensuring seamless data visualization and maintaining high data accuracy" 
+"Collaborated with stakeholders to gather requirements for project planning and execution, ensuring alignment with business objectives and data needs",
+"Optimized large student enrollment datasets applying statistical and data validation techniques to ensure data accuracy and integrity",
+"Created visualizations for presentation and summarized recommendations to support strategic decisions to improve student skill development initiatives",
+
     ],
-  },
+  }
   // {
   //   title: "Full stack Developer",
   //   company_name: "1949 Barber Shop",
@@ -344,6 +357,20 @@ const testimonials = [
     image: nanaB,
     profile: "https://www.linkedin.com/in/nana-yaw-donkor/",
   },
+  {
+    testimonial:
+      "A highly skilled software engineer with a keen eye for detail and a passion for creating innovative data  and api integrations.",
+    name: "Felix Ayesu",
+    designation: "Prof Psychology",
+    company: "MUN",
+    // image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: nanaB,
+    profile: "https://www.linkedin.com/in/nana-yaw-donkor/",
+
+
+  }
+
+
 ];
 
 const projects = [
@@ -455,7 +482,7 @@ const projects = [
       }
     ],
     image: search,
-    source_code_link: "https://github.com/VK-Ampah/FinalSprint_S3",
+    // source_code_link: "https://github.com/VK-Ampah/FinalSprint_S3",
     github_link: "https://github.com/VK-Ampah/FinalSprint_S3"
   },
 
@@ -478,7 +505,7 @@ const projects = [
       },
     ],
     image: pyproject,
-    source_code_link: "https://github.com/Proj-Valentine/Python_Projects",
+    // source_code_link: "https://github.com/Proj-Valentine/Python_Projects",
     github_link: "https://github.com/Proj-Valentine/Python_Projects",
   },
 
@@ -501,7 +528,7 @@ const projects = [
       },
     ],
     image: airflow,
-    source_code_link: "https://github.com/Proj-Valentine/ETL_AIRFLOW",
+    // source_code_link: "https://github.com/Proj-Valentine/ETL_AIRFLOW",
     github_link: "https://github.com/Proj-Valentine/ETL_AIRFLOW",
   },
 
@@ -524,7 +551,7 @@ const projects = [
       },
     ],
     image: erd,
-    source_code_link: "https://github.com/Proj-Valentine/database_design_erd",
+    // source_code_link: "https://github.com/Proj-Valentine/database_design_erd",
     github_link: "https://github.com/Proj-Valentine/database_design_erd",
 }
 

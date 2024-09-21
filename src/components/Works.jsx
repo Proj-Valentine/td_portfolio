@@ -1,15 +1,15 @@
 /* eslint-disable react/prop-types */
-import {Tilt} from "react-tilt";
-import { motion } from "framer-motion";
+// import {Tilt} from "react-tilt";
+// import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { github,url } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
+// import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({
-  index,
+  // index,
   name,
   description,
   tags,
@@ -18,13 +18,8 @@ const ProjectCard = ({
   github_link,
 }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <Tilt
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}
+    // <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+      <div
         className=' p-5 text-black rounded-2xl sm:w-[360px] w-full border'
       >
         <div className='relative w-full h-[230px]'>
@@ -42,19 +37,20 @@ const ProjectCard = ({
               <img
                 src={github}
                 alt='source code'
-                className='w-4/4 h-4/4 object-contain animate-bounce'
+                className='w-4/4 h-4/4 object-contain '
               />
             </div>
-             <div
+            {source_code_link && ( <div
               onClick={() => window.open(source_code_link, "_blank")}
               className='bg-white w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
             >
               <img
                 src={url}
                 alt='Live Url'
-                className='w-4/4 h-4/4 object-contain animate-spin'
+                className='w-4/4 h-4/4 object-contain '
               />
-            </div>
+            </div>)}
+            
           </div>
         </div>
 
@@ -73,23 +69,23 @@ const ProjectCard = ({
             </p>
           ))}
         </div>
-      </Tilt>
-    </motion.div>
+      </div>
+    // </motion.div>
   );
 };
 
 const Works = () => {
   return (
     <>
-      <motion.div variants={textVariant()}>
+      {/* <motion.div variants={textVariant()}> */}
         {/* <p className={`${styles.sectionSubText} `}>My work</p> */}
         <h2 className={`${styles.sectionHeadText}`}>My Projects</h2>
-      </motion.div>
+      {/* </motion.div> */}
 
       <div className='w-full flex'>
-        <motion.p
-          variants={fadeIn("", "", 0.1, 1)}
-          className='mt-3 text-slate-200 text-[15px] max-w-3xl leading-[30px]'
+        <p
+          // variants={fadeIn("", "", 0.1, 1)}
+          className='mt-3 text-white text-[15px] max-w-3xl leading-[30px]'
         >
         My portfolio showcases full-stack applications and big data processing 
         projects using SQL/NoSQL databases such as MongoDB, PostgreSQL, and MySQL, 
@@ -101,15 +97,15 @@ const Works = () => {
          as well as CI/CD tools such as Docker. Each project includes a 
          description and source code link, highlighting my technical versatility 
          and problem-solving skills.
-        </motion.p>
+        </p>
       </div>
 
       <div className='mt-20 flex flex-wrap gap-7'>
-        {projects.map((project, index) => (
+        {projects.map((project) => (
            <div key= {project.name} onClick={() => window.open(project.source_code_link, "_blank")}
               className='cursor-pointer'
             >
-              <ProjectCard key={`project-${index}`} index={index} {...project} />
+              <ProjectCard key={`project-${name}`}  {...project} />
           </div>
 
         ))}

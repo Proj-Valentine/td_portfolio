@@ -5,7 +5,9 @@ import 'react-toastify/dist/ReactToastify.css';
 
 import { About, Contact, Experience, 
   Feedbacks, 
-  Hero, Navbar, Tech, Works, StarsCanvas, Certifications, Footer } from "./components";
+  Hero, Navbar, Tech, Works, 
+  // StarsCanvas, 
+  Certifications, Footer } from "./components";
 
 // toast.configure();
 
@@ -36,7 +38,7 @@ const App = () => {
         <Feedbacks />
         <div className='relative z-0'>
           <Contact />
-          <StarsCanvas />
+          {/* <StarsCanvas /> */}
         </div>
         <Footer />
         {/* <StarsCanvas /> */}

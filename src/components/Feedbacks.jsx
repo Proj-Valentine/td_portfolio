@@ -1,14 +1,14 @@
 /* eslint-disable react/prop-types */
 
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
-import { fadeIn, textVariant } from "../utils/motion";
+// import { fadeIn, textVariant } from "../utils/motion";
 import { testimonials } from "../constants";
 
 const FeedbackCard = ({
-  index,
+  // index,
   testimonial,
   name,
   designation,
@@ -16,8 +16,8 @@ const FeedbackCard = ({
   image,
   profile,
 }) => (
-  <motion.div
-    variants={fadeIn("", "spring", index * 0.5, 0.75)}
+  <div
+    // variants={fadeIn("", "spring", index * 0.5, 0.75)}
     className='bg-slate-950 p-10 rounded-3xl xs:w-[320px] w-full'
   >
     <p className='text-white font-black text-[48px]'>&quot;</p>
@@ -45,7 +45,7 @@ const FeedbackCard = ({
         />
       </div>
     </div>
-  </motion.div>
+  </div>
 );
 
 const Feedbacks = () => {
@@ -54,14 +54,16 @@ const Feedbacks = () => {
       <div
         className={`rounded-2xl ${styles.padding} min-h-[300px]`}
       >
-        <motion.div variants={textVariant()}>
+        <div 
+        
+        >
           {/* <p className={styles.sectionSubText}>What others say</p> */}
           <h2 className={styles.sectionHeadText}>References</h2>
-        </motion.div>
+        </div>
       </div>
       <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>
-        {testimonials.map((testimonial, index) => (
-          <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
+        {testimonials.map((testimonial) => (
+          <FeedbackCard key={testimonial.name}  {...testimonial} />
         ))}
       </div>
     </div>

@@ -47,7 +47,7 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-slate-200 text-[15px] max-w-3xl leading-[30px]'
+        className='mt-4 text-white text-[15px] max-w-3xl leading-[30px]'
       >
        Innovative Data Engineer and Software Developer with over 5 years of 
        experience in optimizing cloud infrastructure for business process enhancement. 
