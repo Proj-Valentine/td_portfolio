@@ -13,7 +13,7 @@ const Footer = () => {
                     <span className='mx-2'>
                         <a key={index} href ={data.url} className='text-white hover:text-gray-400'>
                             <img src={data.icon} alt={data.name} className='w-12 h-12 bg-white rounded' />
-                             <p className='text-sm'>{data.name}</p>
+                             {/* <p className='text-sm'>{data.name}</p> */}
                         </a>
                     </span>
                 </div>

@@ -381,7 +381,7 @@ const projects = [
       "Event management platform that allows users to create, manage, and promote events, facilitating seamless event planning and execution.",
     tags: [
       {
-        name: "Next.js",
+        name: "next.js",
         color: "blue-text-gradient",
       },
       {
@@ -463,7 +463,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "MongoDB Atlas",
+        name: "mongodb",
         color: "green-text-gradient",
       },
 
@@ -477,7 +477,7 @@ const projects = [
 
       },
       {
-        name: "node js",
+        name: "node.js",
          color: "blue-text-gradient",
      
       }
@@ -497,7 +497,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "Bash",
+        name: "bash",
         color: "green-text-gradient",
       },
       {
@@ -562,25 +562,25 @@ const FooterData =
  [
     {
       id: 1,
-      name: "github",
+      // name: "github",
       url: "https://github.com/Proj-Valentine",
       icon: github2,
     },
     {
       id: 2,
-      name: "github2",
+      // name: "github_other",
       url: "https://github.com/VK-Ampah/",
       icon: git,
     },
     {
       id: 2,
-      name: "linkedin",
+      // name: "linkedin",
       url: "https://www.linkedin.com/in/valentine-kwame-ampah-b92a0198/",
       icon: linkedin,
     },
     {
       id: 3,
-      name: "meduim",
+      // name: "meduim",
       url: "https://medium.com/@vkampah28",
       icon: medium,
     },
