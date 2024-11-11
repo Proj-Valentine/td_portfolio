@@ -39,9 +39,9 @@ const Hero = () => {
               
               <img 
                 // src={logonobackground} 
-                src= "./myprof.jpg"
+                src= "./wall.JPG"
                 alt='hero' 
-                className='absolote rounded-full bottom-10 w-[400px] h-[300px] object-contain'
+                className='absolote rounded-lg bottom-10 w-[400px] h-[300px] object-contain'
               />
             </div>
           </div>
