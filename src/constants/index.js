@@ -332,11 +332,12 @@ const cloudtech = [
 
 const experiences = [
   {
-  title: "Full-Stack Developer (Contractor)",
+  title: "Full-Stack Developer (Freelance)",
   company_name: "1949FC",
   icon: java,  // Replace with appropriate icon
   iconBg: "#E6DEDD",
-  date: "July 2024 - Present",
+  // date: "July 2024 - Present",
+   date: "June 2024 - Present",
   points: [
     "Architected a microservice-based web app (1949football) for a local soccer team, enhancing scalability and security with containerized services on AWS, achieving 99.8% uptime and 20% faster load times.",
     "Deployed backend on AWS EC2 using Docker, with SSL and a Load Balancer for traffic management, improving security and scalability.",
@@ -345,11 +346,24 @@ const experiences = [
   ],
 },
 {
+  title: "Software Developer",
+  company_name: "Ciana Insights (Genesis Evolution Start - Up)",
+  icon: nodejs,  // Replace with appropriate icon
+  iconBg: "#E6DEDD",
+  date: "May 2024 - Aug 2024",
+  points: [
+    "Designed and implemented a scalable Retrieval-Augmented Generation (RAG) system using LLMs (GPT APIs) and vector databases to enable interactive AI-driven database querying.",
+    "Developed an architecture that integrates schema processing and embedding-based retrieval to ensure efficient and accurate query results.",
+    "Leveraged speech-to-text APIs to build a real-time conversational AI assistant capable of augmenting natural language queries with database context for precision.",
+    "Delivered a robust solution architecture optimized for performance, scalability, and user-friendly interaction with structured data systems."
+  ],
+},
+{
   title: "Intermediate Software Engineer (Back-End)",
   company_name: "D1g1t Inc",
   icon: python,  // Replace with appropriate icon
   iconBg: "#D5D5D5",
-  date: "May 2022 - June 2024",
+  date: "May 2022 - Dec 2023",
   points: [
     "Enhanced batch processing by creating SQL functions and automating data transformation tasks with Python, reducing query build times by 75% and boosting reporting efficiency.",
     "Improved reliability of reporting applications with Django REST APIs, achieving an 86% improvement in data quality and faster retrieval times.",
@@ -357,31 +371,31 @@ const experiences = [
     "Mentored junior engineers by reviewing code and driving quality standards, reducing post-release bugs by 25% through rigorous testing and code optimization."
   ],
 },
-{
-  title: "Software Engineer",
-  company_name: "Applied Systems, Inc",
-  icon: aws,  // Replace with appropriate icon
-  iconBg: "#F0E1C9",
-  date: "Feb 2019 - Feb 2022",
-  points: [
-    "Developed and maintained scalable microservices in a cloud environment using AWS and Kubernetes, achieving 99.9% uptime and 15% latency reduction, contributing to a 30% improvement in platform performance for Applied Systems’ Epic Benefits app.",
-    "Reduced post-release bugs by 25% through testing and code optimization, enhancing product reliability.",
-    "Designed and deployed RESTful APIs on AWS Cloud with a focus on security, achieving 99.9% uptime and reducing latency by 15% with optimized query handling and caching strategies.",
-    "Led Agile Scrum practices, accelerating feature delivery by 20% through active stakeholder engagement and iterative planning, ensuring alignment on business goals and technical requirements."
-  ],
-},
-{
-  title: "Software Engineer",
-  company_name: "Standard Chartered Bank",
-  icon: python,  // Replace with appropriate icon
-  iconBg: "#C5DBE1",
-  date: "Aug 2016 - Aug 2018",
-  points: [
-    "Built and optimized RESTful APIs with Flask, improving data integration, response times, and efficiency by 40%.",
-    "Implemented and managed CI/CD pipelines with GitHub and Jenkins, reducing build and deployment times by 35% and enhancing code reliability.",
-    "Contributed to AWS infrastructure setup, improving system scalability and reliability for cloud-based applications by over 30%."
-  ],
-},
+// {
+//   title: "Software Engineer",
+//   company_name: "Applied Systems, Inc",
+//   icon: aws,  // Replace with appropriate icon
+//   iconBg: "#F0E1C9",
+//   date: "Feb 2019 - Feb 2022",
+//   points: [
+//     "Developed and maintained scalable microservices in a cloud environment using AWS and Kubernetes, achieving 99.9% uptime and 15% latency reduction, contributing to a 30% improvement in platform performance for Applied Systems’ Epic Benefits app.",
+//     "Reduced post-release bugs by 25% through testing and code optimization, enhancing product reliability.",
+//     "Designed and deployed RESTful APIs on AWS Cloud with a focus on security, achieving 99.9% uptime and reducing latency by 15% with optimized query handling and caching strategies.",
+//     "Led Agile Scrum practices, accelerating feature delivery by 20% through active stakeholder engagement and iterative planning, ensuring alignment on business goals and technical requirements."
+//   ],
+// },
+// {
+//   title: "Software Engineer",
+//   company_name: "Standard Chartered Bank",
+//   icon: python,  // Replace with appropriate icon
+//   iconBg: "#C5DBE1",
+//   date: "Aug 2016 - Aug 2018",
+//   points: [
+//     "Built and optimized RESTful APIs with Flask, improving data integration, response times, and efficiency by 40%.",
+//     "Implemented and managed CI/CD pipelines with GitHub and Jenkins, reducing build and deployment times by 35% and enhancing code reliability.",
+//     "Contributed to AWS infrastructure setup, improving system scalability and reliability for cloud-based applications by over 30%."
+//   ],
+// },
 ]
 
 const testimonials = [
