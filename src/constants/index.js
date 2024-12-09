@@ -26,8 +26,8 @@ import {
   awscloudfoundations,
   awscloudarchitecting,
   awsclouddev,
-  streamfy,
-  swipe,
+  // streamfy,
+  // swipe,
   // onlinestore,
   medium,
   linkedin,
@@ -444,62 +444,89 @@ const testimonials = [
 ];
 
 const projects = [
+  // {
+  //   name: "Event Manager",
+  //   description:
+  //     "Event management platform that allows users to create, manage, and promote events, facilitating seamless event planning and execution.",
+  //   tags: [
+  //     {
+  //       name: "next.js",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "mongodb",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwindCSS",
+  //       color: "pink-text-gradient",
+  //     },
+  //     {
+  //       name: "typescript",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "clerk",
+  //        color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "stripe",
+  //       color: "blue-text-gradient",
+  //     },
+  //   ],
+  //   image: streamfy,
+  //   // source_code_link: "https://streamfy.vercel.app/",
+  //   github_link: "https://github.com/Proj-Valentine/event_platform",
+  // },
   {
-    name: "Event Manager",
+    name: "Reporting Dashboard Application",
     description:
-      "Event management platform that allows users to create, manage, and promote events, facilitating seamless event planning and execution.",
-    tags: [
-      {
-        name: "next.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwindCSS",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "typescript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "clerk",
-         color: "green-text-gradient",
-      },
-      {
-        name: "stripe",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: streamfy,
-    source_code_link: "https://streamfy.vercel.app/",
-    github_link: "https://github.com/Proj-Valentine/event_platform",
-  },
-  {
-    name: "Social App",
-    description:
-      "Social media platform that allows users to create, share, and engage with content, fostering a sense of community and connection among users",
+      "A web-based reporting application featuring graphs, charts, and time series to visualize KPIs for e-commerce stores, along with dashboards for tracking key metrics.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "appwritecloud",
+        name: "d3.js",
         color: "green-text-gradient",
       },
       {
-        name: "tailwindCSS",
+        name: "chart.js",
         color: "pink-text-gradient",
       },
+      {
+        name: "tailwindCSS",
+        color: "blue-text-gradient",
+      },
     ],
-    image: swipe,
-    source_code_link: "https://swipe.vkampah-app.com/sign-in",
-    github_link: "https://github.com/Proj-Valentine/mymobileapp",
+    image: fullstack, // Replace with the actual path to the image
+    source_code_link: "https://mydashboard-valentine-ampahs-projects.vercel.app/",
+    github_link: "https://github.com/Proj-Valentine/mydashboard.git",
   },
+  // {
+  //   name: "Social App",
+  //   description:
+  //     "Social media platform that allows users to create, share, and engage with content, fostering a sense of community and connection among users",
+  //   tags: [
+  //     {
+  //       name: "react",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "appwritecloud",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwindCSS",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: swipe,
+  //   source_code_link: "https://swipe.vkampah-app.com/sign-in",
+  //   github_link: "https://github.com/Proj-Valentine/mymobileapp",
+  // }
+  // ,
   // {
   //   name: "eCommerce Platform",
   //   description:
@@ -580,7 +607,7 @@ const projects = [
   },
 
   {
-    name: "ETL_python_airflow",
+    name: "Data Engineering",
     description:
       "ETL pipeline that extracts data from CSV files, transforms it using Python scripts, and loads it into a database using Apache Airflow for task orchestration.",
     tags: [
